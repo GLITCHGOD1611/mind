@@ -1,0 +1,54 @@
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.login-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.btn-login {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #4a4acf;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-login:disabled {
+  background-color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.login-link {
+  margin-top: 1rem;
+  color: #555;
+}
